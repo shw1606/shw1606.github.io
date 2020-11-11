@@ -1,0 +1,18 @@
+{
+  "Styled Next Functional Component": {
+    "prefix": "snfc",
+    "body": [
+      "import styled from 'styled-components';",
+      "",
+      "const Wrapper = styled.div``;",
+      "",
+      "const ${TM_FILENAME_BASE} = ({}) => {",
+      "  return <Wrapper></Wrapper>;",
+      "};",
+      "",
+      "export default ${TM_FILENAME_BASE};",
+      ""
+    ],
+    "description": "Styled Next Functional Component"
+  }
+}
